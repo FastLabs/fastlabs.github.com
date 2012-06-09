@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html>
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="js/prettify.js"></script>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/prettify.css" type="text/css" rel="stylesheet">
+    <style>
+        pre.prettyprint {
+            padding: 8px;
+            background-color: #F7F7F9;
+            border: 1px solid #E1E1E8;
+        }
+
+        .prettyprint.linenums {
+            -webkit-box-shadow: inset 40px 0 0 #FBFBFC, inset 41px 0 0 #ECECF0;
+            -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+            box-shadow: inset 40px 0 0 #FBFBFC, inset 41px 0 0 #ECECF0;
+        }
+
+        ol.linenums {
+            margin: 0 0 0 33px;
+        }
+
+        ol {
+            list-style: decimal;
+        }
+
+        ol.linenums li {
+            padding-left: 12px;
+            color: #BEBEC5;
+            line-height: 18px;
+            text-shadow: 0 1px 0 white;
+            list-style: decimal;
+        }
+
+        li {
+            line-height: 18px;
+        }
+
+        li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+            background: #F7F7F9;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="well span3">
+            <ul class="nav nav-list">
+                <li class="active"><a href="#">Angular Modules </a></li>
+                <li><a href="#">Angular Dependency Injection </a></li>
+            </ul>
+        </div>
+        <div class="span8">
+
+                <h2>Angular Module description</h2>
+                <div>
+                    <p>Angular applications are structured as modules</p>
+    <pre class="prettyprint linenums"
+            >function() {
+  console.log('Hello world');
+} </pre>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+    onload = function () {
+        prettyPrint()()
+    }
+</script>
+</html>
